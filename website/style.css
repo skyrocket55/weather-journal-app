@@ -8,8 +8,8 @@ body{
     grid-auto-rows: minmax(150px, auto);
     /* grid-template-columns:  */
     height:100vh;
-    background: #f23557;
-    color: #f0d43a;
+    background: #ffffff;
+    color: #22b2da;
     justify-content: center;
     grid-gap: 1em;
     font-size: 20px;
@@ -17,12 +17,13 @@ body{
 }
 
 .holder{
-
+    padding: 5px;
 }
 
 .entry{
     background: rgba(59, 74, 107, .4);
     overflow: scroll;
+    color: #d2691e;
 }
 
 #entryHolder{
@@ -60,7 +61,7 @@ input{
     height: 60px;
     width: 320px;
     background:#22b2da;
-    color: #f0d43a;
+    color: #ffffff;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     border: none;
@@ -69,8 +70,8 @@ input{
 button{
     width: 200px;
     height: 50px;
-    background: #3b4a6b;
-    color: #f0d43a;
+    background: #d2691e;
+    color: #ffffff;
     font-size: 26px;
     font-family: 'Oswald', sans-serif;
     border: none;
@@ -82,7 +83,7 @@ h1{
 
 textarea{
     background:#22b2da;
-    color: #f0d43a;
+    color: #ffffff;
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
 }
@@ -95,7 +96,7 @@ button:focus {
 }
 /* Style for Placeholder Text*/
 ::placeholder { /* Firefox, Chrome, Opera */ 
-    color: #f0d43a; 
+    color: #ffffff; 
     font-family: 'Oswald', sans-serif;
 
 } 
